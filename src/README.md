@@ -17,3 +17,8 @@
     - Controladores: ProdutoController, ClienteController
     - Utilitários: Calculadora, Compactador
     - Outros (views, repositórios, gerenciadores, etc.)
+![img.png](img.png)
+
+## Classes, objetos, atributos
+- classe: é a definicão do tipo.
+- Objetos: são instâncias da classe.
