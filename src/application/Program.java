@@ -1,10 +1,10 @@
-package aulasNelioUdemy.poo;
+package application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class TriangleWithoutPOO {
-    public static void main(String[] args) {
+public class Program {
+     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
@@ -30,16 +30,13 @@ public class TriangleWithoutPOO {
 
         if (areaX > areaY) {
             System.out.println("Large area: X");
-        }
-        else {
+        } else {
             System.out.println("Large area: Y");
         }
-
-
-
-
 
 
         sc.close();
     }
 }
+
+
