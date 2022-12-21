@@ -22,3 +22,18 @@
 ## Classes, objetos, atributos
 - classe: é a definicão do tipo.
 - Objetos: são instâncias da classe.
+
+![img_1.png](img_1.png)
+
+### Discussão: 
+
+Quais os benefícios de se calcular a área de um triângulo por meio de uma MÉTODO 
+dentro da CLASSE Triangle?
+
+1) Reaproveitamento de código: nós eliminamos o código repetido (cálculo das áreas
+dos trŝngulod x e y) no programa principal.
+2) Delegacão de responsabilidades: quem deve ser responsável por saber como calcular a área
+de um triângulo é o próprio triângulo. A lógica do cálculo da área não deve estar em
+outro lugar.
+
+isso se chama principio de COESÃO.
