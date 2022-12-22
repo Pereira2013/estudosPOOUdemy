@@ -37,3 +37,17 @@ de um triângulo é o próprio triângulo. A lógica do cálculo da área não d
 outro lugar.
 
 isso se chama principio de COESÃO.
+
+# Segundo exercícios
+
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+
+### 
+### Discussão
+- Toda classe JAva é uma subclasse da classe Object
+- Object possui os seguintes métodos:
+  - getClass = retorna o tipo de objeto
+  - equals = compara se o objeto é igual a outro
+  - hashCode = retorna um código hash do objeto
+  - toString = converte o objeto para string
