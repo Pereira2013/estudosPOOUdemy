@@ -51,3 +51,16 @@ isso se chama principio de COESÃO.
   - equals = compara se o objeto é igual a outro
   - hashCode = retorna um código hash do objeto
   - toString = converte o objeto para string
+
+## Menbros estéticos
+- Também chamados membros de classe
+  - Em oposicão a membros de instância
+- São menbros que fazem sentido independetemente de objetos. Não precisam de objeto para serem chamados.
+São chamados apartir do próprio nome da classe.
+
+- Aplicaões comuns:
+  - Classes utilitárias => Math.sqrt(double)
+  - Declarocões de constantes
+
+- Uma classe que possui somente membros estéticos, pode ser uma classe estética também. Esta classe não poderá 
+ser instanciada.
