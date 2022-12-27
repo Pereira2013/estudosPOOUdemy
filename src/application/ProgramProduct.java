@@ -11,20 +11,20 @@ public class ProgramProduct {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter product data: ");
-        Product p1 = new Product();
 
         System.out.print("Name: ");
-        p1.name = sc.nextLine();
+        String name = sc.nextLine();
         System.out.print("Price: ");
-        p1.price = sc.nextDouble();
+        double price = sc.nextDouble();
         System.out.print("Quantity in stock: ");
-        p1.quantity = sc.nextInt();
+        int quantity = sc.nextInt();
+        Product p1 = new Product(name, price, quantity);
 
         System.out.println();
         System.out.println("Product data: " + p1);
 
         System.out.print("Enter the number of products to be added in stock: ");
-        int quantity = sc.nextInt();
+        quantity = sc.nextInt();
         p1.addProducts(quantity);
         System.out.println("Updated data: " + p1);
 
