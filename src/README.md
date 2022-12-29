@@ -45,14 +45,14 @@ isso se chama principio de COESÃO.
 
 ### 
 ### Discussão
-- Toda classe JAva é uma subclasse da classe Object
+- Toda classe Java é uma subclasse da classe Object
 - Object possui os seguintes métodos:
   - getClass = retorna o tipo de objeto
   - equals = compara se o objeto é igual a outro
   - hashCode = retorna um código hash do objeto
   - toString = converte o objeto para string
 
-## Menbros estéticos
+## Membros estéticos
 - Também chamados membros de classe
   - Em oposicão a membros de instância
 - São menbros que fazem sentido independetemente de objetos. Não precisam de objeto para serem chamados.
@@ -108,6 +108,37 @@ classe deve garantir isso.
 em Subclasses de pacotes diferentes
 - public: o membro é acessado por todas as classes (ao menos que ele resida em um 
 módulo diferente que não exporte o pacote onde ele está)
+
+## Tipos referência vs. Tipo valor
+
+### Classes são tipos referência 
+- Variáveis cujo tipo são classes não devem ser entendidas como caixas, mas sim 
+"tentáculos" (ponteiros) para caixas.
+- Tipo referência aceita o valor "null", que indica que a variável aponta para ninguém. 
+
+![img_5.png](img_5.png)
+
+### Tipos primitivos são tipos valor
+- Em java, tipos primitivos são tipos valor. Tipos valor são CAIXAS e não ponteiros.
+![img_6.png](img_6.png)
+
+## Desalocamento de memória 
+- Objetos alocados dinamicamente, quando não possuem mnais referência para eles, 
+serão desalocados pelo garbage collector.
+- Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execucão.
+
+# Vetores
+- Em programacão, "vetor" é o nome dado a arranjos unidimensionais
+- Arrajo (Array) é uma estrutura de dados:
+  - Homogênia (dados do mesmo tipo)
+  - Ordenada (elemento acessados por meio de posicões)
+  - Alocada de uma vez só, em bloco contíguo de memória
+## Vantagems
+- Acesso imediato aos elementos pela sua posicão
+
+## Desvantagem
+- Tamnho fixo
+- Dificuldade para insercões e delecões
 
   
   
