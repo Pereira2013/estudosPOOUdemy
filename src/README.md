@@ -131,15 +131,58 @@ serão desalocados pelo garbage collector.
 - Em programacão, "vetor" é o nome dado a arranjos unidimensionais
 - Arrajo (Array) é uma estrutura de dados:
   - Homogênia (dados do mesmo tipo)
-  - Ordenada (elemento acessados por meio de posicões)
+  - Ordenada (elemento acessados por posicões)
   - Alocada de uma vez só, em bloco contíguo de memória
 ## Vantagems
 - Acesso imediato aos elementos pela sua posicão
 
 ## Desvantagem
-- Tamnho fixo
+- Tamanho fixo
 - Dificuldade para insercões e delecões
 
-  
-  
+## Boxing
+- É o processo de conversão de um objeto tipo valor parra um objto tipo referência compativel
+```jshelllanguage
+int x = 0;
+Object obj = x;
+```
+## unboxing
+-  É o processo de conversão de um objeto tipo referência para um objeto tipo valor
+```jshelllanguage
+int x = 20;
+Object obj = x;
+int y = (int) obj;
+```
+# Wrapper classes
+![img_7.png](img_7.png)
+```jshelllanguage
+int x = 20;
+Integer obj = x;
+int y = obj;
+```
+## for each
+- Sintaxe opcional e simplificada para percorrer colecões
+```sh
+for (String obj : vect){
+  System.out.println(obj);
+}
+```
+# Listas
+- Lista é uma estrutura de dados:
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio posicões)
+  - Inicia vazia, e seus elementos são alocados sob demanda
+  - Cada elemento ocupa um "nó" (ou nodo) da lista
+  - Não usa tipos primitivos (int, double etc)
+- Lista é do tipo Interface e não pode ser instânciado
+- Classes que implementam: ArrayList, LinkedList, etc.
+
+## Vantagens:
+- Tamanho variável
+- Facilidade de insercão e delecões
+## Desvantagens
+- Acesso sequencial aos elementos* (Algumas classes otimizam essa desvantangem, tipo a ArrayList)
+
+# Lista parte 2 (HandSon)
+![img_8.png](img_8.png)
    
