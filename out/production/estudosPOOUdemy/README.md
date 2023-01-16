@@ -185,4 +185,20 @@ for (String obj : vect){
 
 # Lista parte 2 (HandSon)
 ![img_8.png](img_8.png)
+
+
+# Matrizes
+- Em programacão, "matriz" é o nome dado ao aranjos bidimensionais
+  - Atencão: "vetor de vetores"
+- Arranjo (array) é uma estrutura de dados:
+ - Homogênea (dados do mesmo tipo)
+ - Ordenada (elementos acessados por meio de posicões)
+ - Alocada de uma vez só, em um bloco contíguo de memória
+
+## Vantagens
+- Acesso imediato aos elementos pela sua posicão
+
+## Desvantagens
+- Tamanho fixo
+- Dificuldade para se realizar insercões e delecões
    
