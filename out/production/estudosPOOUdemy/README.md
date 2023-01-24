@@ -201,4 +201,15 @@ for (String obj : vect){
 ## Desvantagens
 - Tamanho fixo
 - Dificuldade para se realizar insercões e delecões
-   
+
+# Trabalhando com Datas
+- Data-hora local
+  - LocalDate
+  - LocalDateTime
+- Data-hora global
+  - Instant
+- Duracão
+  - Duration
+- Outros
+  - ZoneId
+  - ChronoUnit
