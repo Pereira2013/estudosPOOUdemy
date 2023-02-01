@@ -219,3 +219,20 @@ for (String obj : vect){
 - Palavra chave em java: enum
 
 - Vantagem: Melhor semântica, código mais legível  e auxiliado pelo compilador
+
+# Composicão
+- É um tipo de associacão que permite que um objeto contenha outro
+- Relacão "tem-um" ou "tem-vários"
+- Vatangens
+  - organizacão: divisão de responsabilidades (cada classe tem sua responsabilidades)
+  - Coesão: cada objeto é reponsavel por um única coisa, não deve misturar muita coisa no mesmo lugar
+  - Flexibilidade: vc trabalhar com algo que esta dividido em partes é mais flexivel 
+  - Reuso: o mesmo objeto pode ser usado em mais de um lugar
+- Nota: Embora o Símbolo UML para composicão(todo-parte) seja o diamante preto, neste contexto
+estamos chamando de composicão qualquer associacão tipo "tem-um" e "tem-vários"
+#
+- ![img_9.png](img_9.png)
+#
+- Tem composicão em "Entities" mas também pode acontecer com "Service"
+#
+![img_10.png](img_10.png)
