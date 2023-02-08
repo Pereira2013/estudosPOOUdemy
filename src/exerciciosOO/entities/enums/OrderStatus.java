@@ -1,8 +1,8 @@
 package exerciciosOO.entities.enums;
 
 public enum OrderStatus {
-    PENDING_PAYMET,
+    PENDING_PAYMENT,
     PROCESSING,
     SHIPPING,
-    DElIVERED;
+    DElIVERED
 }
