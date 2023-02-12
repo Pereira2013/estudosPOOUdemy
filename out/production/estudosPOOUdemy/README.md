@@ -236,3 +236,31 @@ estamos chamando de composicão qualquer associacão tipo "tem-um" e "tem-vário
 - Tem composicão em "Entities" mas também pode acontecer com "Service"
 #
 ![img_10.png](img_10.png)
+#
+# Heranca e Polimorfismo 
+#
+## Heranca
+- É um tipo de assiciacão que permite que uma classe herde todos dados e comportamento de outra
+- Vantagens 
+  - Reuso
+  - Polimorfismo
+- Sintaxe
+  - class A extends B
+- Definicões importantes 
+  - Relacão "é-um"
+  - Generalizacão/especializacão
+  - Superclasse(classe base) / subclasse(classe derivada)
+  - Heranca/extensão
+  - Heranca é uma associacão entre classes (e não entre objetos)
+## Exemplo
+![img_11.png](img_11.png)
+![img_13.png](img_13.png)
+#
+# Upcasting
+- Casting da sub classe para superclasse
+- Uso comum: polimorfismo
+#
+# Downcasting
+- Casting da suprclasse para subclasse
+- Palavra instanceof
+- Uso comum: método que recebem parâmetros genéricos(ex:equals)
