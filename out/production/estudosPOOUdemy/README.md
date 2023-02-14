@@ -264,3 +264,14 @@ estamos chamando de composicão qualquer associacão tipo "tem-um" e "tem-vário
 - Casting da suprclasse para subclasse
 - Palavra instanceof
 - Uso comum: método que recebem parâmetros genéricos(ex:equals)
+#
+## Instanceof
+- Usado para comparar se a variavel é instancia de tal classe
+#
+# Sobreposicão ou Sobrescrita
+- É a implementacão de um método de uma superclasse na subclasse
+- É fortemente recomendável usar anotacão @Override num método sobrescrito
+  - Facilita a leitura e compreensão d o código
+  - Avisamos ao compilador(boa prática)
+#
+![img_14.png](img_14.png)

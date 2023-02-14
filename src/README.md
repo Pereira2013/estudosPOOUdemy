@@ -267,3 +267,23 @@ estamos chamando de composicão qualquer associacão tipo "tem-um" e "tem-vário
 #
 ## Instanceof
 - Usado para comparar se a variavel é instancia de tal classe
+#
+# Sobreposicão ou Sobrescrita
+- É a implementacão de um método de uma superclasse na subclasse
+- É fortemente recomendável usar anotacão @Override num método sobrescrito
+  - Facilita a leitura e compreensão d o código
+  - Avisamos ao compilador(boa prática)
+#
+![img_14.png](img_14.png)
+#
+# Palavra Super
+- É possível chamar a implementacão da superclasse usando a palavra SUPER
+- Exemplo: suponha que, na classe BusinessAccount, a regra para saque seja realiazar o saque normalmente da superclasse
+descontar mais 2.0
+```javascript
+@Override
+public void withdraw(double amount) {
+    super. withdraw(amount);
+    balance -= 2.0;
+        }
+```
