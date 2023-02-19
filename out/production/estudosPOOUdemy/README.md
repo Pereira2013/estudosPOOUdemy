@@ -275,3 +275,31 @@ estamos chamando de composicão qualquer associacão tipo "tem-um" e "tem-vário
   - Avisamos ao compilador(boa prática)
 #
 ![img_14.png](img_14.png)
+#
+# Palavra Super
+- É possível chamar a implementacão da superclasse usando a palavra SUPER
+- Exemplo: suponha que, na classe BusinessAccount, a regra para saque seja realiazar o saque normalmente da superclasse
+descontar mais 2.0
+```javascript
+@Override
+public void withdraw(double amount) {
+    super. withdraw(amount);
+    balance -= 2.0;
+        }
+```
+#
+# Classes e métodos Final
+- Palavra chave: Final
+- Classe: evita que a classe sej herdada => public final class SavingsAccount()
+- Método: evita qie o método sob seja sobreposto
+#
+## Pra quê?
+- Seguranca: dependendo das regras de negócio, ás vezes é desejável garantir que uma classe não seja herdada, ou que 
+um método não seja sobreposto.
+  - Geralmente convém acrescentar FINAL em métodos sobrepostos, pois sobreposicÃo múltiplas podem ser uma porta de 
+  entreda para inconsistência
+- Performance: atributos de tipo de uma claasse final são analisados de forma mais rápida em tempo de execucão
+  - Exemplo clássico: String 
+#
+# Polimorfismo
+- Onde as variaveis tem o mesmo tipo mas, tem resultados diferentes.
