@@ -303,3 +303,19 @@ um método não seja sobreposto.
 #
 # Polimorfismo
 - Onde as variaveis tem o mesmo tipo mas, tem resultados diferentes.
+#
+# Classes abstratas 
+- São classes que não podem ser instanciadas.
+- É uma forma de garantir heranca total: somente subclasse não abstrata podem ser instanciadas, mas nunca a superclasse
+abstrata.
+#
+![img_15.png](img_15.png)
+
+- A superclasse génerica nos permite tratar de forma fácil e uniforme todos os tipos de contas, inclusive com polimorfismo
+se for o caso (como fizemos nos últimos exercicios). Por exemplo, você pode colocar todos tipos de contas em uma mesma 
+colocão.
+
+# Métodos Abstrados 
+- São Métodos que não possuem implementacão.
+- Métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementacão.
+- Se uma classe possuir pelo mennos um método abstrato, então esta classe também é abstrata.
