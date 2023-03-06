@@ -319,3 +319,20 @@ colocão.
 - São Métodos que não possuem implementacão.
 - Métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementacão.
 - Se uma classe possuir pelo mennos um método abstrato, então esta classe também é abstrata.
+#
+# Excecões de erro
+- Uma excecão é qualquer condicão de erro ou comportamento inesperado encontrado por um programa em execucão
+- Em Java, uma excecão é um objeto herdado da classe:
+  - java.lang.Exception - o compilador obriga a tratar ou propagar
+  - java.lang.RuntimeException - o compilador não obriga a tratar ou propagar
+- Quando lancada, uma excecão é propagada na pilha de chamadas de métodos em execucão, até que seja capturada
+  (Tratada) ou o programa seja encerrado
+![img_16.png](img_16.png)
+#
+## Por que excecões?
+- O modelo de tratamento de excecões permitem que erros sejam tratados de forma consistente e flexível, usando
+boas práticas
+- Vantagens
+  - Delega a lógica de erro para a classe responsável por conhecer as regras que podem ocasionar o erro
+  - Tratar de forma organizada (Inclusive hierárquica) excecões de tipos diferentes
+  - A excecão podem carregar dados quaisquer 
