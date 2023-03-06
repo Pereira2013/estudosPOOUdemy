@@ -336,3 +336,20 @@ boas práticas
   - Delega a lógica de erro para a classe responsável por conhecer as regras que podem ocasionar o erro
   - Tratar de forma organizada (Inclusive hierárquica) excecões de tipos diferentes
   - A excecão podem carregar dados quaisquer 
+#
+## Try/catch
+#
+## Bloco finally
+- É um bloco que contém código a ser executado independentemnete de ter ocorrido ou não um excecão
+````shell
+try {
+  
+}
+catch (Exception e) {
+  
+}
+finally {
+  
+}
+````
+
