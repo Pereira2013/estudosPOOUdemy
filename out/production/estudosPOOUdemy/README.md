@@ -337,7 +337,14 @@ boas práticas
   - Tratar de forma organizada (Inclusive hierárquica) excecões de tipos diferentes
   - A excecão podem carregar dados quaisquer 
 #
-## Try/catch
+## Estrutura Try/catch
+- Bloco try
+  - Contém o código que representa a execucão normal do trecho de código que *pode* acarretar em 
+  uma excecão
+- Bloco catch 
+  - Contém o código a ser executado caso uma excecão ocorra
+  - Deve ser especificado tipo da excecão
+  - Pode usar quantos blocos catchs forem nescessario
 #
 ## Bloco finally
 - É um bloco que contém código a ser executado independentemnete de ter ocorrido ou não um excecão
